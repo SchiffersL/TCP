@@ -69,7 +69,7 @@ void loop()
 
    // set http param value
    // ToDO : send dynamic value
-   gprsSerial.println("AT+HTTPPARA=\"URL\",\"http://lennart-schiffers.de/index.php?/lat=788798");
+   gprsSerial.println("AT+HTTPPARA=\"URL\",\"http://lennart-schiffers.de/index.php/?lat=788798");
    delay(4000);
    toSerial();
 
