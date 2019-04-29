@@ -3,6 +3,7 @@ for the arduino this document is the reference https://www.espruino.com/datashee
 es kann sei  das ich das auch durch das AT+HTTPACTION=1 als post request machen kann dann ist nur die frage wie ich es im php speichere.
 
 AT+HTTPACTION=1 = post
+
 AT+HTTPACTION=0 = get
 
 tcp scheint aber die sichere seite zu sein.
